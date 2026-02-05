@@ -44,7 +44,7 @@ const Reviews = () => {
 
                 {/* Review Text */}
                 <p className="text-gray-700 mb-6 leading-relaxed text-lg">
-                  "{review.text}"
+                  &ldquo;{review.text}&rdquo;
                 </p>
 
                 {/* Author */}
