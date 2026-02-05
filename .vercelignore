@@ -1,5 +1,13 @@
-node_modules
-backend
+node_modules/
+.git/
+backend/
+test_reports/
+tests/
 .env
 *.log
 .DS_Store
+__pycache__/
+*.pyc
+.ruff_cache/
+memory/
+.emergent/
