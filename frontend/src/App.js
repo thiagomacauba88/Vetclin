@@ -7,7 +7,6 @@ import Services from './components/Services';
 import About from './components/About';
 import Reviews from './components/Reviews';
 import Gallery from './components/Gallery';
-import FAQ from './components/FAQ';
 import Contact from './components/Contact';
 import CTASection from './components/CTASection';
 import Footer from './components/Footer';
@@ -22,7 +21,6 @@ function App() {
       <About />
       <Reviews />
       <Gallery />
-      <FAQ />
       <Contact />
       <CTASection />
       <Footer />
