@@ -130,23 +130,18 @@ const Footer = () => {
               </li>
             </ul>
 
-            {/* Social Links Placeholder */}
+            {/* Social Links */}
             <div className="mt-6">
               <h5 className="text-sm font-semibold mb-3">Siga-nos</h5>
               <div className="flex space-x-3">
                 <a 
-                  href="#" 
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-                  aria-label="Facebook"
+                  href="https://www.instagram.com/vetclinpetshop"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 bg-gradient-to-br from-purple-600 via-pink-600 to-orange-500 rounded-full flex items-center justify-center hover:scale-110 transition-transform duration-300"
+                  aria-label="Instagram VetClin"
                 >
-                  <Facebook className="w-5 h-5" />
-                </a>
-                <a 
-                  href="#" 
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-blue-600 transition-colors"
-                  aria-label="Instagram"
-                >
-                  <Instagram className="w-5 h-5" />
+                  <Instagram className="w-5 h-5 text-white" />
                 </a>
               </div>
             </div>
