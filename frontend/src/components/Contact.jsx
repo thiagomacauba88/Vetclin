@@ -149,20 +149,13 @@ const Contact = () => {
                     />
                   </div>
 
-                  <div className="flex flex-col sm:flex-row gap-3 pt-2">
-                    <Button 
-                      type="submit" 
-                      className="flex-1 bg-blue-600 hover:bg-blue-700"
-                    >
-                      <Send className="w-4 h-4 mr-2" />
-                      Enviar Mensagem
-                    </Button>
+                  <div className="pt-2">
                     <Button 
                       type="button"
                       onClick={handleWhatsAppSubmit}
-                      className="flex-1 bg-green-600 hover:bg-green-700"
+                      className="w-full bg-green-600 hover:bg-green-700 text-lg py-6"
                     >
-                      <MessageCircle className="w-4 h-4 mr-2" />
+                      <MessageCircle className="w-5 h-5 mr-2" />
                       Agendar via WhatsApp
                     </Button>
                   </div>
